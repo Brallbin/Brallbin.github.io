@@ -18,7 +18,7 @@ body, html {
 .MainText {
     text-align: center;
     font-family: "Montserrat";
-    font-weight: bold;
+    font-weight: bolder;
     letter-spacing: -0.061em;
     font-weight: 700;
     transform: translateY(-35vw);
@@ -26,6 +26,7 @@ body, html {
 
 .MainText h1 {
     font-size: 12vw;
+    font-weight: bold;
     color: rgb(255, 255, 255);
     margin: 0%;
     line-height: 85%;
@@ -34,6 +35,7 @@ body, html {
 
 .MainText h2 {
     font-size: 6vw;
+    font-weight: bold;
     color: rgb(255, 255, 255);
     margin: 0%;
     line-height: 85%;
@@ -43,6 +45,7 @@ body, html {
 
 .MainText p {
     font-size: 10.2vw;
+    font-weight: bold;
     color: white;
     top: 25%;
     left: 50%;
@@ -100,6 +103,7 @@ body, html {
     font-family: "Montserrat";
     font-size: 1.2vw;
     background-color:rgb(255, 255, 255);
+    font-weight: bold;
     color: rgb(5, 39, 148);
     border-radius: 0.2vW;
     padding: 0.5vw;
