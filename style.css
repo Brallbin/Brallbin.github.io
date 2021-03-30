@@ -101,9 +101,9 @@ body, html {
 .Knapp {
     text-align: center;
     font-family: "Montserrat";
+    font-weight: bold;
     font-size: 1.2vw;
     background-color:rgb(255, 255, 255);
-    font-weight: bold;
     color: rgb(5, 39, 148);
     border-radius: 0.2vW;
     padding: 0.5vw;
