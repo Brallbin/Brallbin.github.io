@@ -1,41 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hem</title>
-    <link rel="icon" href="Bilder/Aber cyklar logga test.PNG" type="image/icon type">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    </style> 
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+<body onload="RandomNum()">
 
-<body>
-    <div class="logga"></div>
-    <div class = "Knappcontainer">
-        <a href = "index.html" class = "Knapp">Hem</a>
-        <a href = "Produkter.html" class = "Knapp">Produkter</a>
-        <a href = "Om oss.html" class = "Knapp">Om oss</a>
-        <a href = "Kontakta oss.html" class = "Knapp">Kontakta oss</a>
-        <a href = "Kontakta oss.html" class = "Knappinst"></a>
-    </div>
+  <button class="Knapp"onclick="RandomNum()">Random Movie</button>
+  <script src="script.js"></script>
 
-    <div class = "iconcontainer">
-        <a href = "https://www.facebook.com/abercyklaruf" class = "icon" target="_blank">
-        <img src="Bilder/facebook.png">
-        </a>
-        <a href = "https://www.instagram.com/abercyklaruf/" class = "icon" target="_blank">
-        <img src="Bilder/instagram.png">
-        </a>
-    </div>
+  <h1 class="Rank" id="Rank"></h1>
+  <h1 class="Title" id="Title"></h1>
 
-    <div class="MainBack"></div>
-    <div class = "MainText">
-        <h1>Renoverade</h1>
-        <p>cyklar</p>
-    </div>
+  <div class="Movie">
+    <a class="MovieLink" id="MovieLink" target="_blank">
+      <img class="MoviePoster" id="MoviePoster">
+    </a>
+  </div>
+  
 </body>
 </html>
