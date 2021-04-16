@@ -30,6 +30,8 @@ body, html {
     font-size: 1vw;
     position: absolute;
     z-index: 3;
+    width: 9vw;
+    height: 2vw;
 }
 
 
@@ -95,6 +97,7 @@ body, html {
     font-family: 'Open Sans';
     z-index: 2;
     text-shadow: 0vw 0vw 1vw black;
+    font-size: 1.7vw;
 }
 
 .Title {
@@ -106,6 +109,7 @@ body, html {
     top: 3vw;
     z-index: 2;
     text-shadow: 0vw 0vw 1vw black;
+    font-size: 1.7vw;
 }
 
 
