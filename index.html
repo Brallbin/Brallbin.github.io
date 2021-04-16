@@ -4,22 +4,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Random IMDB Top 100</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body onload="RandomNum()">
+<body onload="RandomNum(), FadeIn()">
 
-  <button class="Knapp"onclick="RandomNum()">Random Movie</button>
+  <button class="Knapp" id="Knapp" onclick="RandomNum(), FadeIn()">Random Movie</button>
   <script src="script.js"></script>
+  <script src="animation.js"></script>
 
   <h1 class="Rank" id="Rank"></h1>
   <h1 class="Title" id="Title"></h1>
 
-  <div class="Movie">
-    <a class="MovieLink" id="MovieLink" target="_blank">
-      <img class="MoviePoster" id="MoviePoster">
-    </a>
+  <div class="FlipPoster">
+    <div class="FlipPosterInner">
+      <div class="FlipPosterFront">
+        <img class="MoviePoster" id="MoviePoster">
+      </div>
+      <a id="MovieLink" target="_blank">
+        <div class="FlipPosterBack">
+          <div class="Description" id="Description"></div>
+        </div>
+      </a>
+    </div>
   </div>
-  
+
+  <div class="hanger hanger1" id="hanger"></div>
+  <div class="hanger hanger2" id="hanger"></div>
+
 </body>
 </html>
